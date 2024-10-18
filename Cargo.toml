@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Patrik Fallqvist Magnusson <patrik.fallqvist@gmail.com>"]
 edition = "2021"
 build = "build.rs"
-description = "A desktop app that divides up income"
+description = "Diving up income into tax, owner, profit, and opex amounts."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -17,3 +17,5 @@ slint-build = "1.7.2"
 [package.metadata.bundle]
 name = "Income Divider"
 identifier = "io.github.lordrekishi.income-divider"
+description = "Diving up income into tax, owner, profit, and opex amounts."
+icon = ["./icon.png", "./icon@2x.png"]
